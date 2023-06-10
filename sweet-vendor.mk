@@ -181,6 +181,7 @@ PRODUCT_PACKAGES += \
     libacdbloader \
     libacdbrtac \
     libadiertac \
+    libadm \
     libaudcal \
     libaudio_log_utils \
     libaudioparsers \
@@ -188,6 +189,7 @@ PRODUCT_PACKAGES += \
     libhdmiedid \
     libhfp \
     libpn553_fw \
+    libqtigef \
     libsndmonitor \
     libspkrprot \
     com.qti.sensor.sweet_gc02m1 \
