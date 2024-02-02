@@ -3018,6 +3018,267 @@ cc_prebuilt_library_shared {
 	soc_specific: true,
 }
 
+prebuilt_rfsa {
+	name: "capi_v2_aptX_CLHDAD_Encoder",
+	filename: "capi_v2_aptX_CLHDAD_Encoder.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "capi_v2_aptX_Classic",
+	filename: "capi_v2_aptX_Classic.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "capi_v2_aptX_HD",
+	filename: "capi_v2_aptX_HD.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "capi_v2_dap_cpdp",
+	filename: "capi_v2_dap_cpdp.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/capi_v2_dap_cpdp.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "libVC1Dec",
+	filename: "libVC1Dec.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/libVC1Dec.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "libVC1DecDsp_skel",
+	filename: "libVC1DecDsp_skel.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "libapps_mem_heap",
+	filename: "libapps_mem_heap.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "libarc_hta_driver_skel",
+	filename: "libarc_hta_driver_skel.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/libarc_hta_driver_skel.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "libarcsoft_dualcam_refocus_skel",
+	filename: "libarcsoft_dualcam_refocus_skel.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "libarcsoft_hdrplus_hvx_skel",
+	filename: "libarcsoft_hdrplus_hvx_skel.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "libcamera_nn_skel",
+	filename: "libcamera_nn_skel.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/libcamera_nn_skel.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "libcvpdsp_skel",
+	filename: "libcvpdsp_skel.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/libcvpdsp_skel.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "libdirac-capiv2",
+	filename: "libdirac-capiv2.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/libdirac-capiv2.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "libdspCV_skel",
+	filename: "libdspCV_skel.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "libdsp_streamer_add_constant",
+	filename: "libdsp_streamer_add_constant.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/libdsp_streamer_add_constant.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "libdsp_streamer_binning",
+	filename: "libdsp_streamer_binning.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/libdsp_streamer_binning.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "libdsp_streamer_skel",
+	filename: "libdsp_streamer_skel.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/libdsp_streamer_skel.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "libfastcvadsp",
+	filename: "libfastcvadsp.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "libfastcvdsp_skel",
+	filename: "libfastcvdsp_skel.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/libfastcvdsp_skel.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "libhexagon_nn_skel",
+	filename: "libhexagon_nn_skel.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/libhexagon_nn_skel.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "libhexagon_nn_skel_secondary",
+	filename: "libhexagon_nn_skel_secondary.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/libhexagon_nn_skel_secondary.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "libhta_dsp_skel",
+	filename: "libhta_dsp_skel.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/libhta_dsp_skel.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "libmialgo_rfs_cdsp_skel",
+	filename: "libmialgo_rfs_cdsp_skel.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/libmialgo_rfs_cdsp_skel.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "libscveObjectSegmentation_skel",
+	filename: "libscveObjectSegmentation_skel.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "libscveT2T_skel",
+	filename: "libscveT2T_skel.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "libsnpe_dsp_v65_domains_v2_skel",
+	filename: "libsnpe_dsp_v65_domains_v2_skel.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "libsnpe_dsp_v66_domains_v2_skel",
+	filename: "libsnpe_dsp_v66_domains_v2_skel.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/libsnpe_dsp_v66_domains_v2_skel.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "libsns_device_mode_skel",
+	filename: "libsns_device_mode_skel.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/libsns_device_mode_skel.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
+	name: "libsns_low_lat_stream_skel",
+	filename: "libsns_low_lat_stream_skel.so",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
 cc_prebuilt_binary {
 	name: "batterysecret",
 	owner: "xiaomi",

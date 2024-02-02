@@ -137,6 +137,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
     vendor/xiaomi/sweet/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
     vendor/xiaomi/sweet/proprietary/vendor/firmware/osc_rtp_24K_5s.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/osc_rtp_24K_5s.bin \
+    vendor/xiaomi/sweet/proprietary/vendor/lib/rfsa/adsp/dirac_resource.dar:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/dirac_resource.dar \
+    vendor/xiaomi/sweet/proprietary/vendor/lib/rfsa/adsp/misound_karaoke_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_karaoke_res.bin \
+    vendor/xiaomi/sweet/proprietary/vendor/lib/rfsa/adsp/misound_karaokemix_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_karaokemix_res.bin \
+    vendor/xiaomi/sweet/proprietary/vendor/lib/rfsa/adsp/misound_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_res.bin \
+    vendor/xiaomi/sweet/proprietary/vendor/lib/rfsa/adsp/misound_res_headphone.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_res_headphone.bin \
+    vendor/xiaomi/sweet/proprietary/vendor/lib/rfsa/adsp/misound_res_spk.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_res_spk.bin \
     vendor/xiaomi/sweet/proprietary/vendor/lib64/camera/com.qti.sensormodule.sweet_ofilm_imx355_ultra.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sweet_ofilm_imx355_ultra.bin \
     vendor/xiaomi/sweet/proprietary/vendor/lib64/camera/com.qti.sensormodule.sweet_ofilm_imx471_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sweet_ofilm_imx471_front.bin \
     vendor/xiaomi/sweet/proprietary/vendor/lib64/camera/com.qti.sensormodule.sweet_ofilm_ov02b1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sweet_ofilm_ov02b1b.bin \
@@ -347,6 +353,35 @@ PRODUCT_PACKAGES += \
     sensors.mius.proximity \
     sensors.ssc \
     sensors.touch \
+    capi_v2_aptX_CLHDAD_Encoder \
+    capi_v2_aptX_Classic \
+    capi_v2_aptX_HD \
+    capi_v2_dap_cpdp \
+    libVC1Dec \
+    libVC1DecDsp_skel \
+    libapps_mem_heap \
+    libarc_hta_driver_skel \
+    libarcsoft_dualcam_refocus_skel \
+    libarcsoft_hdrplus_hvx_skel \
+    libcamera_nn_skel \
+    libcvpdsp_skel \
+    libdirac-capiv2 \
+    libdspCV_skel \
+    libdsp_streamer_add_constant \
+    libdsp_streamer_binning \
+    libdsp_streamer_skel \
+    libfastcvadsp \
+    libfastcvdsp_skel \
+    libhexagon_nn_skel \
+    libhexagon_nn_skel_secondary \
+    libhta_dsp_skel \
+    libmialgo_rfs_cdsp_skel \
+    libscveObjectSegmentation_skel \
+    libscveT2T_skel \
+    libsnpe_dsp_v65_domains_v2_skel \
+    libsnpe_dsp_v66_domains_v2_skel \
+    libsns_device_mode_skel \
+    libsns_low_lat_stream_skel \
     batterysecret \
     mi_thermald \
     sensors.qti \
