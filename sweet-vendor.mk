@@ -266,6 +266,7 @@ PRODUCT_PACKAGES += \
     camera.qcom \
     com.qti.chi.override \
     consumerir.sm6150 \
+    fingerprint.fortsense.sm6150 \
     fingerprint.fpc.sm6150 \
     libFaceGrade \
     libPSNPE \
@@ -355,6 +356,7 @@ PRODUCT_PACKAGES += \
     sensors.mius.proximity \
     sensors.ssc \
     sensors.touch \
+    vendor.sw.swfingerprint@2.0 \
     capi_v2_aptX_CLHDAD_Encoder \
     capi_v2_aptX_Classic \
     capi_v2_aptX_HD \
